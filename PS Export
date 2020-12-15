@@ -1,0 +1,32 @@
+import pyautogui
+import time
+
+# fail-safes
+pyautogui.FAILSAFE = True
+
+# OK
+time.sleep(3)
+pyautogui.hotkey('ctrl','t')
+pyautogui.typewrite('https://app.powerbi.com/groups/me/reports/77c5ab02-86c5-436a-bd21-c3b4e6f3bc04/ReportSection0e3419147caa07737936')
+pyautogui.hotkey('enter')
+
+# OK
+time.sleep(10)
+pyautogui.moveTo(1231, 156, 1, pyautogui.easeInQuad)
+pyautogui.click()
+pyautogui.moveTo(1153, 476, 1.5, pyautogui.easeInQuad)
+pyautogui.click()
+time.sleep(5)
+pyautogui.moveTo(727, 545, 1, pyautogui.easeInQuad)
+pyautogui.moveTo(776, 370, 1, pyautogui.easeInQuad)
+pyautogui.click()
+pyautogui.moveTo(807, 423, 1, pyautogui.easeInQuad)
+pyautogui.click()
+pyautogui.moveTo(729, 590, 1, pyautogui.easeInQuad)
+pyautogui.click()
+
+
+
+# time.sleep(5)
+# print(pyautogui.position())
+
