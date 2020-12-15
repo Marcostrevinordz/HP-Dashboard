@@ -8,6 +8,8 @@ pyautogui.FAILSAFE = True
 # OK
 time.sleep(3)
 pyautogui.moveTo(515, 753, 1, pyautogui.easeInQuad)
+pyautogui.click(button='right')
+pyautogui.moveTo(500, 651, 1, pyautogui.easeInQuad)
 pyautogui.click()
 pyautogui.moveTo(480, 52, 1, pyautogui.easeInQuad)
 pyautogui.click()
@@ -31,6 +33,7 @@ pyautogui.moveTo(729, 590, 1, pyautogui.easeInQuad)
 pyautogui.click()
 
 
-
+#
 # time.sleep(5)
 # print(pyautogui.position())
+
