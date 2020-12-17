@@ -38,3 +38,21 @@ pyautogui.typewrite(hp_password, interval=sec)
 pyautogui.hotkey('enter')
 
 time.sleep(5)
+pyautogui.hotkey('enter')
+
+
+
+time.sleep(5)
+pyautogui.hotkey('ctrl','t')
+pyautogui.typewrite('https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin')
+pyautogui.typewrite('marcostrevinordz', interval=sec)
+pyautogui.hotkey('enter')
+time.sleep(3)
+pyautogui.typewrite('marcostrevinordz', interval=sec)
+pyautogui.hotkey('altright','2')
+pyautogui.typewrite('gmail.com', interval=sec)
+pyautogui.hotkey('enter')
+
+# Project end since Google Chrome doesn't allow an automation to access my account.'
+
+
